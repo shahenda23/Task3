@@ -1,0 +1,66 @@
+.department-container {
+    font-family: 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border : 2px solid #e0d6d1;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width:100%;
+    text-align: center;
+    box-shadow: 10px 10px 10px #b3a7a1;
+    text-shadow: 2px 2px 12px ;
+    height: 360px;
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  .increment-button {
+    background-color: #efebe7;
+    border: 1px solid #aca094;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+  }
+  
+  .increment-button:hover {
+    background-color: #d2c6c0;
+    transform: scale(1.05);
+  }
+
+  .department-container:hover {
+    background-color: #e0d6d1;
+    transform: scale(1.05);
+  }
+
+  .bar{
+    position:static;
+    background-color: #b3a7a1;
+  }
+
+  .card .card-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .description {
+    max-height: 40px; 
+    overflow: hidden;
+  }
+
+  .cart-container {
+    font-family: 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border : 2px solid #e0d6d1;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width:100%;
+    text-align: center;
+    box-shadow: 10px 10px 10px #b3a7a1;
+    text-shadow: 2px 2px 12px ;
+    height: 360px;
+    display: flex; 
+    flex-direction: column;
+  }
